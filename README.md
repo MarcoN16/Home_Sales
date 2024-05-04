@@ -25,8 +25,7 @@ In this project, I used your SparkSQL and parquet library to determine key metri
 10	Create a temporary table for the parquet data.
 11	Run the last query that calculates the average price of a home per "view" rating having an average home price greater than or equal to $350,000. Determine the runtime and compare it to uncached runtime.
 
-<img width="152" alt="parquet_run_time" src="https://github.com/MarcoN16/Home_Sales/assets/150491559/c774f3d7-3306-4135-b838-61e9cbfdd7b8">
-
+![parquet_run_time](https://github.com/MarcoN16/Home_Sales/assets/150491559/c2847223-04bf-4e4e-bdbb-b392505caaae)
 
 12	Uncache the home_sales temporary table.
 13	Verify that the home_sales temporary table is uncached using PySpark.
